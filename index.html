@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <title>Score keeper</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="column is-three-quarters is-offset-one-quarter is-6">
+            <div class="card">
+                <h1 class="is-size-3 has-text-centered">Score keeper</h1>
+                <div class="card-image">
+                    <figure class="image is-3by2">
+                        <img class="main"
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.mancavekings.com%2Fwp-content%2Fuploads%2F2019%2F02%2Fbest-ping-pong-paddle.jpg%3Fresize%3D780%252C520%26ssl%3D1&f=1&nofb=1"
+                            alt="ping-pong">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content has-text-centered">
+                        <p class="is-size-4">Score : <span class="scorep1">0</span> to <span class='scorep2'>0</span>
+                        </p>
+                        <p>Playing to <select name="highScore" id="highScore">
+                                <option value="5">5</option>
+                                <option value="7">7</option>
+                                <option value="11">11</option>
+                                <option value="21">21</option>
+                            </select>
+                            Enable Deus<input type="checkbox" name="deus" id="deus"><br></p>
+                        <p>Use buttons to increase score</p>
+                        <button class="button is-success" id="p1">Player 1</button>
+                        <button class="button is-success" id="p2">Player 2</button>
+                        <button class="button is-danger" id="reset">Reset </button>
+                        <h3 class='verdict'>Click reset to start over</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>BUG -: do not change to a score limit which is already been surpassed, to be fixed in time</p>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

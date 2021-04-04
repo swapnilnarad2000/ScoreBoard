@@ -1,0 +1,27 @@
+.main {
+    width: 20%;
+    height: 10%;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+.back {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* h1 {
+    color: white;
+    background-color: black;
+} */
+
+body {
+    color: white;
+    background-color: black;
+}
